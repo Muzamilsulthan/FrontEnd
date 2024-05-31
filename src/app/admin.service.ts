@@ -14,7 +14,7 @@ import { map } from 'rxjs';
 export class AdminService {
 
   private selectedList: string="";
-  private apiUrl = 'http://localhost:8080/api';
+  private apiUrl = 'http://rev-task-mgmt.azurewebsites.net//api';
 
   constructor(private http: HttpClient) { }
 
